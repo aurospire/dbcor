@@ -1,5 +1,5 @@
 import { Constraint, makeForeignKeyName, superchargeTable } from "@/TableUtil";
-import { makeDbHandle, DbHandle } from "./DbHandle";
+import { DbHandle, makeDbHandle } from "./DbHandle";
 
 describe('TableUtil', () => {
 

@@ -1,4 +1,3 @@
-// DatabaseDate.test.ts
 import { DatabaseDate } from "@/DatabaseDate";
 import { DateTime } from "luxon";
 
