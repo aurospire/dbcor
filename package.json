@@ -26,10 +26,12 @@
         "vigil": "nodemon -e ts,js,tsx,jsx,json --watch src --watch 'package*.json' --watch test --exec 'tsc -p . && jest --config test/jest.config.ts || exit 1'"
     },
     "dependencies": {
-        "knex": "^3.1.0"
+        "knex": "^3.1.0",
+        "luxon": "^3.4.4"
     },
     "devDependencies": {
         "@types/jest": "^29.5.12",
+        "@types/luxon": "^3.4.2",
         "@types/node": "^20.14.9",
         "better-sqlite3": "^11.1.2",
         "jest": "^29.7.0",
