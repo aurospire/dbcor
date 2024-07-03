@@ -13,6 +13,7 @@
         "**/node_modules": true,
         "**/LICENSE": true,
         "**/tsconfig.json": true,
+        "**/dist": true,
         "**/jest.config.ts": true
     }
 }
