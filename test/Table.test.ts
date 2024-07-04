@@ -3,7 +3,6 @@ import * as m from "@/ColumnFunctions";
 import { Row } from "@/Row";
 import { Table, TableProps } from "@/Table";
 import { TableCallback } from "@/TableUtil";
-import { expectType } from "jestype";
 import { DbHandle, makeDbHandle } from "./DbHandle";
 
 const MainName = 'Main';
