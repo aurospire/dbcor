@@ -1,19 +1,19 @@
 {
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/.gitignore": true,
-        "**/.npmrc": true,
-        "**/.vscode": true,
-        "**/package-lock.json": true,
-        "**/node_modules": true,
-        "**/LICENSE": true,
-        "**/tsconfig.json": true,
-        "**/dist": true,
-        "**/jest.config.ts": true
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        "**/.gitignore": false,
+        "**/.npmrc": false,
+        "**/.vscode": false,
+        "**/package-lock.json": false,
+        "**/node_modules": false,
+        "**/LICENSE": false,
+        "**/tsconfig.json": false,
+        "**/dist": false,
+        "**/jest.config.ts": false
     }
 }
