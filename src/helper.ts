@@ -12,10 +12,11 @@ import {
     uuidColumn,
 } from "./ColumnFunctions";
 import { DynamicRow, makeDynamicTable } from "./DynamicTable";
-//import { InferActionRow, InferInsertRow, InferSelectRow, InferUpdateRow, InferWhereRow } from "./InferRow";
 import { Query } from "./Query";
 import { ColumnType, Row } from "./Row";
 import { StaticRow, StaticTableKeys, makeStaticTable } from "./StaticTable";
+import { makeDatabaseConnector, InferDatabaseObject } from "./Database";
+import { makeSystemConnector, InferSystemObject } from "./System";
 
 export {
     column,
@@ -36,5 +37,9 @@ export {
     makeStaticTable as StaticTable,
     StaticRow as StaticRow,
     DynamicRow as DynamicRow,
-    StaticTableKeys as Keys
+    StaticTableKeys as Keys,
+    makeDatabaseConnector as Database,
+    InferDatabaseObject as InferDatabase,
+    makeSystemConnector as System,
+    InferSystemObject as InferSystem,
 };
