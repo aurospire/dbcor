@@ -2,7 +2,7 @@
     "name": "dbcor",
     "description": "A TypeScript library for declaratively defining database schemas with dynamic and static tables, enabling data transformation and validation at the code layer.",
     "author": "aurospire",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/aurospire/dbcor"
